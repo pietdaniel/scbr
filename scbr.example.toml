@@ -1,0 +1,15 @@
+# Copy to scbr.toml or .scbr.toml at a project root.
+exclude = ["vendor/**", "generated", "**/*.generated.ts"]
+include-hidden = false
+include-ignored = false
+languages = ["typescript", "javascript", "python", "go", "rust", "java", "kotlin"]
+
+[thresholds]
+complexity = 10
+extreme-complexity = 30
+cognitive-complexity = 10
+min-clone-lines = 3
+min-clone-statements = 2
+long-function-sloc = 50
+max-parameters = 5
+max-nesting = 4

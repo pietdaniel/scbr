@@ -1,0 +1,17 @@
+# Rust build and profiling output. Keep Cargo.lock tracked for this CLI.
+/target/
+*.profraw
+*.profdata
+*.pstats
+
+# Local environment files; allow checked-in examples.
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# macOS and editor temporary files.
+.DS_Store
+*.swp
+*.swo
+*~
